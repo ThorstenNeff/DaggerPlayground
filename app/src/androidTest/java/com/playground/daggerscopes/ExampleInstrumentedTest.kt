@@ -1,4 +1,4 @@
-package com.elyeproj.simplestappwithdagger2
+package com.playground.daggerscopes
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

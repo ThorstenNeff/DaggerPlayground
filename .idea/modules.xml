@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo_android_simplest_dagger2.iml" filepath="$PROJECT_DIR$/demo_android_simplest_dagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplestdagger.iml" filepath="$PROJECT_DIR$/simplestdagger.iml" group="simplestdagger" />
+      <module fileurl="file://$PROJECT_DIR$/app/simplestdagger-app.iml" filepath="$PROJECT_DIR$/app/simplestdagger-app.iml" group="simplestdagger/app" />
     </modules>
   </component>
 </project>

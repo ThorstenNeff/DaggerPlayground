@@ -1,4 +1,4 @@
-package com.elyeproj.simplestappwithdagger2
+package com.playground.daggerscopes
 
 import org.junit.Test
 

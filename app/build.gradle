@@ -6,7 +6,7 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.elyeproj.simplestappwithdagger2"
+        applicationId "com.playground.daggerscopes"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
