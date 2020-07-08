@@ -39,7 +39,9 @@ class MainActivity : AppCompatActivity() {
         tracker.track()
 
         Log.d(TAG,"Configuration: ${configuration.toString()}")
-        findViewById<TextView>(R.id.text_view).setText(configuration.rootUrl)
+        findViewById<TextView>(R.id.text_view).setText("Tracker: " + tracker)
+        findViewById<TextView>(R.id.text_view2).setText("Configuration: " + configuration)
+        findViewById<TextView>(R.id.text_view3).setText("Animator: " + animator)
     }
 
     fun gotoLogin(view: View) {

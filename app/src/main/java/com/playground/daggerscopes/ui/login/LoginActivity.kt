@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.playground.daggerscopes.MyAppClass
 import com.playground.daggerscopes.R
@@ -34,6 +35,8 @@ class LoginActivity : AppCompatActivity() {
         tracker.track()
 
         Log.d(TAG,"Configuration: ${configuration.toString()}")
+        findViewById<TextView>(R.id.text_view).setText("Tracker: " + tracker)
+        findViewById<TextView>(R.id.text_view2).setText("Configuration: " + configuration)
     }
 
     companion object {
